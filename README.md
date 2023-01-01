@@ -7,8 +7,8 @@ There will be 2 versions of the code.
 **To Do List V1.1**
 The To Do List V1.1 is a simpler and straight forward version of the to do list code.
 It has the following functions:
-*Add a new task
-*view tasks
+* Add a new task
+* view tasks
     3. Edit a task
     4. Mark a task as complete
     5. Delete an existing task
