@@ -13,3 +13,30 @@ It has the following functions:
 4. Mark a task as complete
 5. Delete an existing task
 6. Set a reminder
+
+1. Add a new task
+This function first run a function check_file(file_name) to see if the csv file with all the to do list task is already at the desired path, if not then this piece of code/function will create a new file with the required headers.
+Then the Add_task() function will get the number of task to be inserted by the users followed by the loop to get the same number of inputs from users such as :
+      TaskNo
+      TaskName
+      TargetDate (Targetted date to achieve the task by user)
+      TaskDate (Date oin which the task was created)
+      PercentageAch (% of which task has been achieved)
+After taking above details from the user the function feeds these details in the To Do List.csv 
+
+2. view tasks
+Although currently there are not more than 5-10 task in the To Do List.csv but after a period of time user may have n number of task and so wants to view the details of a particular task. This function of the program helps in getting the detail of a single task for the convenience of the user it will print the list of the task available in the To Do List.csv sheet along with the details but if the user is aware of the task no. the user can ignore the lsit and go ahead and type in the task no. to get the details but if the user do not remember the task number then can look through the list and fetch the details of the particular task.
+
+Note: Although the list will already have the details of all te task, this function is built with the vision of v1.3 or future version which will include some detailed analysis or charts of every task in comaprision to other tasks! and those details will not be available in the list that is printed by default and so this view_task function will be helpful to get those analyticals results of the desired task number.
+
+3. Edit a task
+Again for the convenience of the user this function will also print the list of task available in the To Do List.csv sheet before hand, then the user can put in the task number for wich they need to edit the task details.
+After typing in the the task no., the code will ask the user updated details for the task such as :
+      TaskNo
+      TaskName
+      TargetDate (Targetted date to achieve the task by user)
+      TaskDate (Date oin which the task was created)
+      PercentageAch (% of which task has been achieved)
+the code is using the index of the task no and then updating all the values of all the columns of the record at that particular index.
+
+4. Mark a task as complete
