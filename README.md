@@ -19,13 +19,11 @@ It has the following functions:
 
 This function first run a function check_file(file_name) to see if the csv file with all the to do list task is already at the desired path, if not then this piece of code/function will create a new file with the required headers.
 Then the Add_task() function will get the number of task to be inserted by the users followed by the loop to get the same number of inputs from users such as :
-'''
-TaskNo
-TaskName
-TargetDate (Targetted date to achieve the task by user)
-TaskDate (Date oin which the task was created)
-PercentageAch (% of which task has been achieved)
-'''
+* TaskNo
+* TaskName
+* TargetDate (Targetted date to achieve the task by user)
+* TaskDate (Date oin which the task was created)
+* PercentageAch (% of which task has been achieved)
 After taking above details from the user the function feeds these details in the To Do List.csv 
 
 **2. view tasks**
@@ -38,12 +36,12 @@ Note: Although the list will already have the details of all te task, this funct
 
 Again for the convenience of the user this function will also print the list of task available in the To Do List.csv sheet before hand, then the user can put in the task number for wich they need to edit the task details.
 After typing in the the task no., the code will ask the user updated details for the task such as :
-      TaskNo
-      TaskName
-      TargetDate (Targetted date to achieve the task by user)
-      TaskDate (Date oin which the task was created)
-      PercentageAch (% of which task has been achieved)
-the code is using the index of the task no and then updating all the values of all the columns of the record at that particular index.
+* TaskNo
+* TaskName
+* TargetDate (Targetted date to achieve the task by user)
+* TaskDate (Date oin which the task was created)
+* PercentageAch (% of which task has been achieved)
+The code is using the index of the task no and then updating all the values of all the columns of the record at that particular index.
 
 **4. Mark a task as complete**
 
