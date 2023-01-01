@@ -4,7 +4,7 @@ There will be 2 versions of the code.
 1. The first version will be a simple code of python program which will be functional and straight forward.
 2. The second version will be a little upgrade with GUI and a bit user friendly.
 
-##**To Do List V1.1**
+##To Do List V1.1
 
 The To Do List V1.1 is a simpler and straight forward version of the to do list code.
 It has the following functions:
@@ -15,7 +15,7 @@ It has the following functions:
 5. Delete an existing task
 6. Set a reminder
 
-###**1. Add a new task**
+###1. Add a new task
 
 This function first run a function check_file(file_name) to see if the csv file with all the to do list task is already at the desired path, if not then this piece of code/function will create a new file with the required headers.
 Then the Add_task() function will get the number of task to be inserted by the users followed by the loop to get the same number of inputs from users such as :
