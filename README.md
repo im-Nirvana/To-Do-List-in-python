@@ -8,22 +8,24 @@ There will be 2 versions of the code.
 
 The To Do List V1.1 is a simpler and straight forward version of the to do list code.
 It has the following functions:
-* Add a new task
-* view tasks
-* Edit a task
-* Mark a task as complete
-* Delete an existing task
-* Set a reminder
+1. Add a new task
+2. view tasks
+3. Edit a task
+4. Mark a task as complete
+5. Delete an existing task
+6. Set a reminder
 
 **1. Add a new task**
 
 This function first run a function check_file(file_name) to see if the csv file with all the to do list task is already at the desired path, if not then this piece of code/function will create a new file with the required headers.
 Then the Add_task() function will get the number of task to be inserted by the users followed by the loop to get the same number of inputs from users such as :
+'''
       TaskNo
       TaskName
       TargetDate (Targetted date to achieve the task by user)
       TaskDate (Date oin which the task was created)
       PercentageAch (% of which task has been achieved)
+'''
 After taking above details from the user the function feeds these details in the To Do List.csv 
 
 **2. view tasks**
