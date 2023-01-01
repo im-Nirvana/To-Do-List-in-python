@@ -8,11 +8,11 @@ To Do List V1.1
 The To Do List V1.1 is a simpler and straight forward version of the to do list code.
 It has the following functions:
     1. Add a new task
-		2. view tasks
-		3. Edit a task
-		4. Mark a task as complete
-		5. Delete an existing task
-		6. Set a reminder
+    2. view tasks
+    3. Edit a task
+    4. Mark a task as complete
+    5. Delete an existing task
+    6. Set a reminder
 
 1. Add a new task
 This function first run a function check_file(file_name) to see if the csv file with all the to do list task is already at the desired path, if not then this piece of code/function will create a new file with the required headers.
